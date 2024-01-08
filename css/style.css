@@ -15,10 +15,15 @@ body{
 
 #photo{
     
-    border-radius: 50px;
+    
     
     margin-left: 150px;
     margin-top: -50px;
+   
+  border: none;
+  -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
 
 }
 
@@ -40,6 +45,16 @@ body{
     
     
 }
+td { 
+    border-width:1px;
+    border-style:solid; 
+    border-color:grey;
+    width:50%;
+    vertical-align:middle;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+  }
 
 .container {
 
